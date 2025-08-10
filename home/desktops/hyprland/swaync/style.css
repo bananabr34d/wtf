@@ -1,0 +1,31 @@
+* {
+    font-family:
+        Hack Nerd Font,
+        DejaVu Sans;
+    font-size: 14px;
+    color: #cdd6f4;
+}
+
+.notification {
+    background: #1e1e2ecc;
+    border: 1px solid #cba6f7;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.notification-content {
+    color: #cdd6f4;
+}
+
+.notification-title {
+    font-weight: bold;
+    color: #cba6f7;
+}
+
+.control-center {
+    background: #1e1e2ecc;
+    border: 1px solid #cba6f7;
+    border-radius: 8px;
+    padding: 10px;
+}

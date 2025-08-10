@@ -1,0 +1,9 @@
+[manager]
+cwd = { fg = "#cba6f7" }
+[filetype]
+rules = [
+  { mime = "text/*", fg = "#cdd6f4", icon = "📄" },
+  { mime = "image/*", fg = "#cdd6f4", icon = "📷" },
+  { mime = "application/*md", fg = "#cdd6f4", icon = "📝" },
+  { name = "*/", fg = "#89b4fa", icon = "📁" }
+]

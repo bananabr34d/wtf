@@ -1,0 +1,27 @@
+format = """
+[╭─](bold #cba6f7)$username@$hostname $directory$git_branch$git_status
+[╰─➜ ](bold #94e2d5) """
+
+[username]
+style_user = "bold #cdd6f4"
+style_root = "bold #f38ba8"
+format = "[$user]($style)"
+show_always = true
+
+[hostname]
+style = "bold #cdd6f4"
+format = "[$hostname]($style) "
+ssh_only = false
+
+[directory]
+style = "bold #89b4fa"
+format = "[$path]($style) "
+
+[git_branch]
+symbol = " "
+style = "bold #a6e3a1"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "bold #f38ba8"
+format = "[$all_status$ahead_behind]($style) "

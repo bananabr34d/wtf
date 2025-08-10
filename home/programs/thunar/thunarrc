@@ -1,0 +1,11 @@
+[Configuration]
+last-window-width=800
+last-window-height=600
+last-window-maximized=false
+last-view=ThunarIconView
+last-icon-view-zoom-level=THUNAR_ZOOM_LEVEL_NORMAL
+misc-date-style=THUNAR_DATE_STYLE_SIMPLE
+misc-show-hidden=false
+misc-theme=Adwaita-dark
+misc-single-click=false
+misc-volume-management=true

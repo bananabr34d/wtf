@@ -1,0 +1,7 @@
+keys:
+  - &joe age1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+creation_rules:
+  - path_regex: .*
+    key_groups:
+      - age:
+          - *joe
