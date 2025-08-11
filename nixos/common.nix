@@ -97,9 +97,8 @@ in {
     };
   };
 
-  # Enable snapper snapshot boot entries
+  # Enable systemd-boot entries
   boot.loader.systemd-boot.enable = true;
-  boot.loader.systemd-boot.snapshots = true;
 
   time.timeZone = "America/Chicago";
 

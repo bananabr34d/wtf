@@ -7,7 +7,6 @@
   hyprland,
   sops-nix,
   nixos-hardware,
-  snapper,
 }: {
   mkNixos = {
     system,
@@ -16,7 +15,7 @@
   }:
     nixpkgs.lib.nixosSystem {
       inherit system;
-      specialArgs = specialArgs // {inherit nixpkgs unstable disko hyprland sops-nix nixos-hardware snapper;};
+      specialArgs = specialArgs // {inherit nixpkgs unstable disko hyprland sops-nix nixos-hardware;};
       modules =
         modules
         ++ [

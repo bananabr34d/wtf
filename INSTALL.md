@@ -183,7 +183,7 @@ This document provides detailed steps for installing the NixOS configuration on 
 8. **Generate and Configure Hardware Configuration**:
    - Generate `hardware-configuration.nix`:
      ```bash
-     nixos-generate-config --no-filesystem --root /mnt
+     sudo nixos-generate-config --no-filesystems --root /mnt
      mv /mnt/etc/nixos/hardware-configuration.nix nixos/hosts/relic/
      ```
    - Verify `nixos/hosts/relic/hardware-configuration.nix` includes the LUKS device:

@@ -22,7 +22,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nixos-hardware.url = "github:NixOS/nixos-hardware";
-    snapper.url = "github:openSUSE/snapper";
   };
 
   outputs = {
@@ -35,7 +34,6 @@
     hyprland,
     sops-nix,
     nixos-hardware,
-    snapper,
     ...
   }: let
     lib = import ./lib {inherit nixpkgs unstable darwin disko home-manager hyprland sops-nix nixos-hardware snapper;};
